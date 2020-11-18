@@ -15,4 +15,5 @@ public class Scoala {
         Elevi.add((elev)) ;
     }
     public void removeElev(Elev elev){Elevi.remove(elev);}
+
 }
