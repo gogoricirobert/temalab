@@ -18,4 +18,9 @@ public class Elev {
        String mesaj="Elevul "+ this.name+" "+ this.prenumme+" este in clasa "+this.clasa +" si are varsta "+this.varsta;
        System.out.println(mesaj);
     }
+
+    public int getVarsta()
+    {
+        return this.varsta;
+    }
 }
